@@ -26,7 +26,6 @@ print(rownames(expenditures))
 # Add a column "category" to your data frame that contains the rownames
 expenditures$category <- rownames(expenditures)
 
-print(expenditures)
 # How much money was spent on personal care in 1940?
 print(expenditures["Personal Care", "X1940"])
 
